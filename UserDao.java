@@ -18,6 +18,6 @@ public interface UserDao {
 	String changePassword(String email,String oldPwd,
 			String newPwd) throws SQLException;
 	//delete voter details
-	String deleteVoterDetails(int voterId) throws SQLException;
+	String deleteVoterDetails(int voterId) throws   SQLException;
 	
 }
