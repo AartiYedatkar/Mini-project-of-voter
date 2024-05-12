@@ -14,6 +14,7 @@ public class UserDaoImpl implements UserDao {
 	private PreparedStatement pst1, pst2, pst3, pst4, pst5;
 
 	// def ctor of the DAO layer
+
 	public UserDaoImpl() throws SQLException {
 		// get cn from db utils
 		cn = openConnection();
